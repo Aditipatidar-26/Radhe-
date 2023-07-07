@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.2%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.blue {
+    width: 45rem;
+    height: 45rem;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35rem;
+    height: 35rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 5rem solid skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shree{
+    color: red;
+    font-size: 5rem;
+    margin: 0rem 0 -39px 0px;
+    font-weight: 700;
+}
+.radha{
+    color: red;
+    font-weight: 700;
+    font-size: 5rem;
+}
